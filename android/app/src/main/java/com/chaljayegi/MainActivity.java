@@ -5,6 +5,15 @@ import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
 import com.facebook.react.defaults.DefaultReactActivityDelegate
 
+import com.reactnativenavigation.NavigationActivity;
+public class MainActivity extends ReactActivity {
+public class MainActivity extends NavigationActivity {
+    @Override
+    protected String getMainComponentName() {
+        return "ChalJayeGi";
+    }
+}
+}
 class MainActivity : ReactActivity() {
 
   /**
